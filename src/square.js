@@ -7,7 +7,7 @@ class Square extends Component {
      playersMark: ''
    }
  }
-// onclick button that calls the move logic in each sqaure
+ 
  onbtnClick = () => {
    let { playersMark, playersTurn, moveLog, index, checkForWin, endGame } = this.props
    let newMark = playersMark()
